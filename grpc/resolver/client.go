@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	corev1 "github.com/kdubbo/xds-api/core/v1"
-	tlsv1 "github.com/kdubbo/xds-api/extensions/transport_sockets/tls/v1"
-	discovery "github.com/kdubbo/xds-api/service/discovery/v1"
+	corev1 "github.com/dubml/xds-api/core/v1"
+	tlsv1 "github.com/dubml/xds-api/extensions/transport_sockets/tls/v1"
+	discovery "github.com/dubml/xds-api/service/discovery/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

@@ -6,7 +6,7 @@
 package application
 
 import (
-	runtimetelemetry "github.com/kdubbo/xds-api/grpc/telemetry"
+	runtimetelemetry "github.com/dubml/xds-api/grpc/telemetry"
 	"google.golang.org/grpc"
 )
 

@@ -3,7 +3,7 @@ package resolver
 import (
 	"sync/atomic"
 
-	runtimetelemetry "github.com/kdubbo/xds-api/grpc/telemetry"
+	runtimetelemetry "github.com/dubml/xds-api/grpc/telemetry"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 )

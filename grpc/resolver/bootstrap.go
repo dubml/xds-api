@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	corev1 "github.com/kdubbo/xds-api/core/v1"
+	corev1 "github.com/dubml/xds-api/core/v1"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

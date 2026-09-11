@@ -512,7 +512,7 @@ func buildOTLPAccessLogRequest(record accessLogRecord) *collectorlogsv1.ExportLo
 	timestamp := uint64(record.timestamp.UnixNano())
 	return &collectorlogsv1.ExportLogsServiceRequest{ResourceLogs: []*logsv1.ResourceLogs{{
 		ScopeLogs: []*logsv1.ScopeLogs{{
-			Scope: &commonv1.InstrumentationScope{Name: "github.com/kdubbo/xds-api/grpc/telemetry"},
+			Scope: &commonv1.InstrumentationScope{Name: "github.com/dubml/xds-api/grpc/telemetry"},
 			LogRecords: []*logsv1.LogRecord{{
 				TimeUnixNano:         timestamp,
 				ObservedTimeUnixNano: timestamp,

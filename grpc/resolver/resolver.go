@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	clusterv1 "github.com/kdubbo/xds-api/cluster/v1"
-	endpointv1 "github.com/kdubbo/xds-api/endpoint/v1"
-	tlsv1 "github.com/kdubbo/xds-api/extensions/transport_sockets/tls/v1"
-	listenerv1 "github.com/kdubbo/xds-api/listener/v1"
-	routev1 "github.com/kdubbo/xds-api/route/v1"
-	discovery "github.com/kdubbo/xds-api/service/discovery/v1"
+	clusterv1 "github.com/dubml/xds-api/cluster/v1"
+	endpointv1 "github.com/dubml/xds-api/endpoint/v1"
+	tlsv1 "github.com/dubml/xds-api/extensions/transport_sockets/tls/v1"
+	listenerv1 "github.com/dubml/xds-api/listener/v1"
+	routev1 "github.com/dubml/xds-api/route/v1"
+	discovery "github.com/dubml/xds-api/service/discovery/v1"
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"
 
