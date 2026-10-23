@@ -1,6 +1,6 @@
 module github.com/dubml/xds-api
 
-go 1.25.0
+go 1.26.0
 
 require (
 	go.opentelemetry.io/proto/otlp v1.9.0
